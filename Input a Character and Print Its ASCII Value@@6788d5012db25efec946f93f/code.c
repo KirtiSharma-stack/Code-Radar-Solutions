@@ -3,9 +3,9 @@
 
 
 int main() {
-    char f;
-    scanf("%c\n",&f);
-    printf("ASCII Value: %d", f,int(f));
+    char fl;
+    scanf("%c\n",&fl);
+    printf("ASCII Value: %d",int(fl));
 
     return 0;
 }
