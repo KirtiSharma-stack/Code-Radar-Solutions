@@ -2,10 +2,10 @@
 
 
 int main() {
-    char a[100];
+    char a[100],b[100];
     //getchar;
     //fgets(a,sizeof(a),stdin);
-    scanf("%s %s",&a);
-    printf("You entered: %s and %s",a);
+    scanf("%s %s",&a,&b);
+    printf("You entered: %s and %s",a,b);
     return 0;
 }
