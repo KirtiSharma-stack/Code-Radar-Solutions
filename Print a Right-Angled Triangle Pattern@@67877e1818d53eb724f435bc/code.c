@@ -6,10 +6,10 @@ int main() {
     int a;
     scanf("%d\n",&a);
     for (i=1;i<=a;i++){
-        for (j=1;j<=a;j--){
-        printf("*")
+        for (j=1;j<=i;j++){
+        printf("*");
         }
-        printf("\n")
+        printf("\n");
     }
     return 0;
 }
