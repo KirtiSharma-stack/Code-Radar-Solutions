@@ -12,6 +12,6 @@ int main() {
     else{
         printf("%d",l);
     }
-    printf()
+    // printf()
     return 0;
 }
