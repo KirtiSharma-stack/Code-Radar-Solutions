@@ -7,9 +7,9 @@ int main() {
     scanf("%d\n",&a);
     for (i=1;i<=a;i++){
         for (j=1;j<=a;j--){
-        printf("*");
+        printf("*")
         }
-        printf("\n");
+        printf("\n")
     }
     return 0;
 }
