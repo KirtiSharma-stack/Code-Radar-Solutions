@@ -4,7 +4,7 @@
 int main() {
     // printf("%s", welcome());
     int q;
-    if (q%2==0){
+    if (q%2=0){
         printf("Even");
     }
     else{
