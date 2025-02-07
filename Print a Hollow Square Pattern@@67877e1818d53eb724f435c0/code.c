@@ -13,7 +13,7 @@ int main() {
         if (i==1 || i==a){
         printf("*");
     }
-        for (int j=1;j<=;j++){
+        for (int j=1;j<=a;j++){
             if (j==1 || j==a){
                 printf("*");
             }
