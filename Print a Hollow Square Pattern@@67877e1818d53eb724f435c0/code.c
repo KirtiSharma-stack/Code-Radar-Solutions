@@ -9,18 +9,19 @@ int main() {
     //         printf("*");
     //     }
     //  }
-    for(int i<=a;i++){
-        if (i==1 || i==a){
-        printf("*");
-    }
+    for(int i=1; i<=a;i++){
+
         for (int j<=a;j++){
             if (j==1 || j==a){
                 printf("*");
             }
-            printf("\n");
         }
+        printf("\n");
+        
+        if (i==1 || i==a){
+        printf("*");
+             }
 
     }
     return 0;
-    
 }
