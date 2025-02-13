@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main{
 int s;
-scanf("%d",&s);
+scanf("%d\n",&s);
 if (s%5==0 && s%11==0){
     printf("Divisible");
 }
