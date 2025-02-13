@@ -1,9 +1,9 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-char a;
-scanf("%c",&a);
-if (a=Uppercase){
+char a[23];
+scanf("%s",&a);
+if  a==strupr(a){
     printf("Uppercase");
 }
 else{
