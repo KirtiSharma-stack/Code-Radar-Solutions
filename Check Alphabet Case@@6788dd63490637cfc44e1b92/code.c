@@ -2,13 +2,13 @@
 #include <stdio.h>
  #include <ctype.h>
 int main(){
-    char a[];
+    char a;
     scanf("%c",&a);
     // char b[]=strupr(a);
-    if  (isupper(a[])){
+    if  (isupper(a)){
         printf("Uppercase");
     }
-    else if(islower(a[])){
+    else if(islower(a)){
         printf("Lowercase");
     }
     else{
