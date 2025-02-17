@@ -2,10 +2,10 @@
 #include <stdio.h>
 #include <string.h>
 int main(){
-    char a[23];
+    char a[];
     scanf("%s",&a);
-    b=strupr(a);
-    if  (a=b){
+    char b[]=strupr(a);
+    if  (a==b){
         printf("Uppercase");
     }
     else{
