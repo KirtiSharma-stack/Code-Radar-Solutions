@@ -4,7 +4,7 @@
 int main(){
     int a,b,c;
     scanf("%d %d %d",&a,&b,&c);
-    float d=sqrt(a*a+b*b);
+    double d=sqrt(a*a+b*b);
     if (c==(int)d){
         printf("Valid");
     }
