@@ -5,7 +5,7 @@ int main(){
     char a[];
     scanf("%s",&a);
     // char b[]=strupr(a);
-    if  (a=isupper){
+    if  (a==isupper){
         printf("Uppercase");
     }
     else{
