@@ -2,7 +2,7 @@
 #include <stdio.h>
 // #include <string.h>
 int main(){
-    char a[];
+    char a;
     scanf("%c",&a);
     // char b[]=strupr(a);
     if  (isupper(a)){
