@@ -1,7 +1,8 @@
 #include<stdio.h>
 int main(){
-   char a,b;
-   scanf("%c %c",&a,&b);
+   int a;
+   char b;
+   scanf("%d %c",&a,&b);
 //    a<<b;
    int d=a<<b;
    printf("%d",d);
