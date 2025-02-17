@@ -6,7 +6,7 @@ int main(){
     scanf("%c",&a);
     char vowel[5]="aeiou";
     char digit[10]="0123456789";
-    for (i=0;i<strlen(vowel);i++){
+    for ((int)i=0;i<strlen(vowel);i++){
         if (a==vowel[i]){
             printf("Vowel");
         }
@@ -14,7 +14,7 @@ int main(){
             printf("Consonant");
         }
     }
-    for (j=0;j<strlen(digit);j++){
+    for ((int)j=0;j<strlen(digit);j++){
         if (a==digit[i]){
             printf("Digit");
         }
