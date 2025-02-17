@@ -3,7 +3,7 @@
 #include <string.h>
 int main(){
     char a[];
-    scanf("%s",&a);
+    scanf("%c",&a);
     // char b[]=strupr(a);
     if  (isupper(a)){
         printf("Uppercase");
