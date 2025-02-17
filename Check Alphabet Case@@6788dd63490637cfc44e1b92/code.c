@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <string.h>
 int main(){
-    char a[];
+    char a[23];
     scanf("%s",&a);
-    char b[]=strupr(a);
+    char b[23]=strupr(a);
     if  (a==b){
         printf("Uppercase");
     }
