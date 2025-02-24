@@ -4,8 +4,8 @@
 int main(){
     int a,b,c;
     scanf("%d %d %d",&a,&b,&c);
-    d=sqrt(a*a+b*b);
-    if (c==d){
+    ;
+    if (c=sqrt(a*a+b*b)){
         printf("Valid");
     }
     else{
