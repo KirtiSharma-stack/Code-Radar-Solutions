@@ -2,13 +2,15 @@
 // Your code here...
 #include<stdio.h>
 void isprime(int k){
+    if (k<2){
+        printf("not prime\n");
+        return;
+    }
     for (int i=2;i<k;i++){
         if (k%i==0){
-            printf("1");
+            return 0;
         }
-        else{
-            printf("0");
-        }
+        return 1;
     }
 }
 int main(){
