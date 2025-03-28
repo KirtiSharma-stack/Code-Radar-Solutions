@@ -1,7 +1,7 @@
 // Your code here...
 // Your code here...
 #include<stdio.h>
-int isprime(int k){
+int isPrime(int k){
     if (k<2){
         // printf("not prime\n");
         return 0;
@@ -20,7 +20,7 @@ int main(){
     for (int j=0;j<n;j++){
         int num;
         scanf("%d",&num);
-        printf("%d\n",isprime(num));
+        printf("%d\n",isPrime(num));
         
     }
 
