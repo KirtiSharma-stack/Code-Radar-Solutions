@@ -9,13 +9,23 @@ int main(){
     }
     int max=arr[0];
     int min=arr[n];
-    for (int j=1;j<n;j++){
+    // for (int j=1;j<n;j++){
         
+    //     if (arr[j]>arr[0]){
+    //         max=arr[j];
+    //     }
+    //     if (arr[j]<arr[n]){
+    //         min=arr[j];
+    //     }
+    // }
+    for (int j=1;j<n-1;j++){
         if (arr[j]>arr[0]){
             max=arr[j];
         }
-        if (arr[j]<arr[n]){
-            min=arr[j];
+    }
+    for (int k=n-1;k<=1;k--){
+        if (arr[k]<arr[n]){
+            min=arr[k];
         }
     }
     printf("%d %d",min,max);
