@@ -9,9 +9,9 @@ int main(){
         scanf("%d\n",&arr[i]);
     }
     int max=arr[0];
-    for (int j=0;j<n;j++){
+    for (int j=1;j<n;j++){
         if (arr[j]>arr[0]){
-            max=arr[i];
+            max=arr[j];
         }
     }
     printf("%d",max);
