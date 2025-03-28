@@ -7,11 +7,12 @@ int main(){
         int arr[n];
         scanf("%d\n",&arr[i]);
     }
-    int arr[0]==max;
+    int arr[0]=max;
     for (int j=0;j<n;j++){
         if (arr[j]>arr[0]){
-            max==arr[i];
+            max=arr[i];
         }
     printf("%d",arr[j]);
     return 0;
+}
 }
