@@ -3,7 +3,7 @@
 #include<stdio.h>
 void isprime(int k){
     for (int i=2;i<k;i++){
-        if (k/i==0){
+        if (k%i==0){
             printf("1");
         }
         else{
@@ -17,7 +17,8 @@ int main(){
     for (int j=0;j<n;j++){
         int num;
         scanf("%d",&num);
-        printf("%d\n",isprime(num));
+        isprime(num);
+        
     }
 
     return 0;
