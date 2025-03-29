@@ -18,7 +18,7 @@ int main() {
 
         int count = 1;  // Start with 1 (itself)
 
-        for (int k =n; k >1; k--) {  // Second loop from last
+        for (int k =n; k >0; k--) {  // Second loop from last
             if (arr[j] == arr[k]) {
                 count++;
                 arr[k] = -1;  // Mark duplicate as counted
